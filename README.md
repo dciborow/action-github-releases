@@ -49,7 +49,7 @@ jobs:
         run: |
           echo "done!"
 
-      - uses: "dciborow/action-automatic-releases-2@1.0.0"
+      - uses: "dciborow/action-automatic-releases-2@v1.0.0"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           automatic_release_tag: "latest"
@@ -90,7 +90,7 @@ jobs:
         run: |
           echo "done!"
 
-      - uses: "dciborow/action-automatic-releases-2@1.0.0"
+      - uses: "dciborow/action-automatic-releases-2@v1.0.0"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
