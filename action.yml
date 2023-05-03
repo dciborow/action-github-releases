@@ -1,4 +1,4 @@
-name: "automatic-releases-2"
+name: "automatic-releases-action"
 author: "dciborow"
 description: "Automate the GitHub release process with assets, changelogs, pre-releases, and more"
 branding:
