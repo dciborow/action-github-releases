@@ -1,6 +1,9 @@
 name: "GitHub Releases"
 author: "dciborow"
 description: "Automate the GitHub release process with assets, changelogs, pre-releases, and more"
+branding:
+  icon: 'eye'
+  color: 'gray-dark'
 inputs:
   repo_token:
     description: "GitHub secret token"
