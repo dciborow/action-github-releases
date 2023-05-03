@@ -1,4 +1,5 @@
 # GitHub Automatic Releases
+Forked from [marvinpinto/action-automatic-releases](https://github.com/marvinpinto/action-automatic-releases) with latest updates.
 
 This action simplifies the GitHub release process by automatically uploading assets, generating changelogs, handling pre-releases, and so on.
 
