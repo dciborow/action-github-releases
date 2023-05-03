@@ -2,8 +2,8 @@ name: "GitHub Releases"
 author: "dciborow"
 description: "Automate the GitHub release process with assets, changelogs, pre-releases, and more"
 branding:
-  icon: 'eye'
-  color: 'gray-dark'
+  icon: "git-merge"
+  color: "red"
 inputs:
   repo_token:
     description: "GitHub secret token"
@@ -37,6 +37,4 @@ outputs:
 runs:
   using: "node16"
   main: "dist/index.js"
-branding:
-  icon: "git-merge"
-  color: "red"
+
